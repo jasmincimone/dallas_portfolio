@@ -1,92 +1,154 @@
 * {
     box-sizing: border-box;
-    margin: 2;
-    padding; 2;
-    border: 1px solid black;
+    margin: 4;
+    padding; 4;
+    border: 1px solid white;
+    background-color: white;
 }
 
 h1{
-    color: white;
+    color: black;
     font-family: cursive;
-    font-weight: 500px;
+    font-weight: 200px;
     text-align: center;
     text-decoration: underline;
    
 }
+h2{
+    color: black;
+    font-family: cursive;
+    font-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: black;
+    font-family: cursive;
+    font-align: center;
+    text-decoration: underline;
+}
 nav{
-    display: block;    
-    font-size: 30pt;
-    border: 1px solid white;
+    display: inline-block;    
+    font-size: 20pt;
+    border: 1px solid black;
+    text-align: center;
     }
-.crumbs ol {
-list-style-type: none;
-padding-left: 0;
-}
-.crumbs {
+.Portfolio {
 display: inline-block;
-}
-.crumb a::after {
-display: inline-block;
-color: #000;
-content: '>';
-font-size: 80%;
-font-weight: bold;
-padding: 0 3px;
 }
     body{
-        color: white; 
+        color: black; 
         background-color: black;
         text-align: center;
     }
     img{
         box-shadow: 5px 5px 5px white 
     }
-    li{
+    /* li{
         list-style-type: none;
-    }
+    } */
     p{
         color: black;
-        font-size: 16pt;
+        font-size: 1.25em;
         text-align: center;
     }    
-    .center {
+    /* .center {
         color: white;
         margin-left: auto;
         margin-right: auto;
-    }
-    .name {           
-        text-decoration: underline white;
-    }
-    .link {
-       color: blueviolet
+    } */
 
-    }
-    div {
-        background-color: white;
+    /* div {
+        background-color: black;
         width: 450px; height: 270px;
         margin-left: auto;
         margin-right: auto;
-    }
-    span{
-        color: salmon;
-        font-size: 40pt;
-        font-family: Lucida Sans;
-    }
+    } */
+    /* span{ */
+        /* color: salmon; */
+        /* font-size: 40pt; */
+        /* font-family: Lucida Sans; */
+     /* } */
     #div1{
         background-color: white; 
-        border: 5px dotted salmon;
+        border: 5px solid black;
+        color: white;
+        display: inline-block;
+        height: 25%;
+        width: 100%;
     }
+
+        #diva{
+            height: 25%;
+            viewport-length: 33%;
+            box-align: margin-left
+            
+        }
+        #divb{
+            height: 25%;
+            viewport-length: 33%;
+        }
+        #divc{
+            height: 25%;
+            viewport-length: 33%;
+        }
+
     #div2{
         background-color: salmon;
-        width: 450px; height: 328px;
-        border: 5px double white;
+        width: 100%;
+        border: 5px double black;
+        display: inline-block;
+        height: 25%;
+        width: 100%;
     }
+
+    #divd{
+        height: 25%;
+        width: 100%;
+    }
+    #dive{
+        height: 25%;
+        width: 100%;
+    }
+
+    #div3{
+        background-color: white; 
+        border: 5px solid black;
+        color: white;
+        display: inline-block;
+        height 25%;
+        width: 100%;
+    }   
+    #div4{
+        background-color: salmon;
+        border: 5px double black;
+        display: inline-block;
+        height: 25%;
+        width: 100%;
+    }
+
+        #divf{
+            height: 25%;
+            width: 100%;
+        }
+        #divg{
+            height: 25%;
+            width: 100%;
+        }
+        #divh{
+            height: 25%;
+            width: 100%;
+        }
+
     form{
         padding: 15px;
         background-color: black;
         font-style: bold;
+        color: white;
         border: 10px double salmon;
         font-weight: 900px;
+        width: 50%;
+        display: block;
+        position: right;
     
     }
     input[type=button]:hover{
