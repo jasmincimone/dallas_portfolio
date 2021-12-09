@@ -17,24 +17,92 @@ h1{
 h2{
     color: black;
     font-family: cursive;
-    font-align: center;
+    text-align: center;
     text-decoration: underline;
 }
 h3{
     color: black;
     font-family: cursive;
-    font-align: center;
+    text-align: center;
     text-decoration: underline;
 }
-nav{
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: block;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* nav{
     display: inline-block;    
     font-size: 20pt;
     border: 1px solid black;
     text-align: center;
-    }
-.Portfolio {
-display: inline-block;
-}
+    } */
+÷
     body{
         color: black; 
         background-color: black;
@@ -68,7 +136,7 @@ display: inline-block;
         /* font-size: 40pt; */
         /* font-family: Lucida Sans; */
      /* } */
-    #div1{
+    .div1{
         background-color: white; 
         border: 5px solid black;
         color: white;
@@ -77,22 +145,22 @@ display: inline-block;
         width: 100%;
     }
 
-        #diva{
+        .diva{
             height: 25%;
             viewport-length: 33%;
             box-align: margin-left
             
         }
-        #divb{
+        .divb{
             height: 25%;
             viewport-length: 33%;
         }
-        #divc{
+        .divc{
             height: 25%;
             viewport-length: 33%;
         }
 
-    #div2{
+    .div2{
         background-color: salmon;
         width: 100%;
         border: 5px double black;
@@ -101,16 +169,16 @@ display: inline-block;
         width: 100%;
     }
 
-    #divd{
+    .divd{
         height: 25%;
         width: 100%;
     }
-    #dive{
+    .dive{
         height: 25%;
         width: 100%;
     }
 
-    #div3{
+    .div3{
         background-color: white; 
         border: 5px solid black;
         color: white;
@@ -118,7 +186,7 @@ display: inline-block;
         height 25%;
         width: 100%;
     }   
-    #div4{
+    .div4{
         background-color: salmon;
         border: 5px double black;
         display: inline-block;
@@ -126,15 +194,15 @@ display: inline-block;
         width: 100%;
     }
 
-        #divf{
+        .divf{
             height: 25%;
             width: 100%;
         }
-        #divg{
+        .divg{
             height: 25%;
             width: 100%;
         }
-        #divh{
+        .divh{
             height: 25%;
             width: 100%;
         }
