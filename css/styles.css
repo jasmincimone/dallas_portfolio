@@ -45,6 +45,7 @@ ul {
     background-color: white;
     font-size: 16px;
     list-style: inside;
+    text-align: left;
 }
 
 /* Navbar container */
@@ -59,7 +60,7 @@ ul {
     float: left;
     font-size: 16px;
     color: Black;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: underline;
   }
@@ -73,7 +74,7 @@ ul {
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
-    border: none;
+    border: 2px;
     outline: none;
     color: black;
     text-decoration: underline;
@@ -155,31 +156,40 @@ ul {
     .div1{
         background-color: white; 
         border: 5px solid black;
-        color: white;
-        height: 25%;
-        width: 100%;
+        color: black;
+        /* height: 25%;
+        width: 100%; */
         display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
+            flex-wrap: nowrap;
+            flex-direction: column;
+    }
+    .diva {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* height: 25%;
+        width: 33vw; */
+        align: center;
         justify-content: space-between;
     }
-
-        .diva {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            /* height: 25%;
-            width: 33vw; */
-            align: center;
-            justify-content: space-between;
-        }
-
+    .div2{
+        display: flex;
+        flex-wrap: wrap;
+            flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        border: 5px solid black;
+        /* height: 25%;
+        width: 100%; */
+    }
         .divb {
             display: flex;
             justify-content: center;
+            align-items: center;
             /* height: 25%;
             width: 33vw; */
-        }
+    }
         .divc{
             /* height: 25%;
             width: 33vw; */
@@ -188,72 +198,96 @@ ul {
             flex-direction: row;
         }
 
-    .div2{
+    .div3{
         display: flex;
         flex-wrap: wrap;
             flex-direction: row;
-        justify-content: space-between;
-        background-color: salmon;
-        border: 5px double black;
-        height: 25%;
-        width: 100%;
-    }
-
+        background-color: white; 
+        align-items: flex-start;
+        justify-content: space-evenly;
+        border: 5px solid black;
+        color: white;
+        /* height: 25%;
+        width: 100%; */
+        }   
     .divd{
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: column;
+        flex: 30%;
         align-items: center;
         justify-content: space-evenly;
+        /* align-items: center; */
         /* height: 25%;
         width: 100%; */
     }
     .dive{
         display: flex;
-        height: 25%;
-        width: 100%;
-        align-items: flex-end;
-        flex-direction: row;
+        flex: 30%;
+        /* height: 25%;
+        width: 100%; */
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        align-items: center;
+    }
+    .divf{
+        display: flex;
+        flex: 30%;
+        flex-direction: column;
+        justify-content: center;
 
+        /* height: 25%;
+        width: 100%; */
     }
 
-    .div3{
-        display: flex;
-        flex-wrap: wrap;
-            flex-direction: column;
-        background-color: white; 
-        align-items: center;
-        border: 5px solid black;
-        color: white;
-        height: 25%;
-        width: 100%;
-    }   
+    
     .div4{
         display: flex;
         flex-wrap: wrap;
             flex-direction: row;
-        background-color: salmon;
+        background-color: black;
         border: 5px double black;
-        height: 25%;
-        width: 100%;
+        justify-content: space-around;
+        /* align-items: center; */
+        /* height: 25%;
+        width: 100%; */
     }
-
-        .divf{
-            /* display: flex; */
-            height: 25%;
-            width: 100%;
+        .divf {
+            display: flex;
+            flex: 50%;
+            justify-content: space-evenly;
+            align-items: center;
         }
         .divg{
-            /* display: flex; */
-            height: 25%;
-            width: 100%;
+            display: flex;
+            flex: 50%;
+            justify-content: space-evenly;
+            align-items: center;
+            /* height: 25%;
+            width: 100%;*/
         }
+    .div5 {
+        display: flex;
+        flex-wrap: wrap;
+            flex-direction: row;
+        background-color: white; 
+        /* align-items: flex-start; */
+        justify-content: space-between;
+        border: 5px solid rgb(189, 151, 151);
+        color: white;
+    }
+
         .divh{
-            /* display: flex; */
-            height: 25%;
-            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            /* height: 25%;
+            width: 100%; */
+        }
+
+        .divi{
+            display: flex;
+            justify-content: space-evenly;
         }
 
     form{
