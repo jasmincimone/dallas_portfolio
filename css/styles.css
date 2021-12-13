@@ -27,6 +27,26 @@ h3{
     text-decoration: underline;
 }
 
+h4 {
+    color: Salmon;
+}
+
+h5 {
+    color: black;
+    text-decoration: underline;
+}
+
+h6 {
+    color: black
+}
+
+ul {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    list-style: inside;
+}
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
@@ -141,49 +161,61 @@ h3{
         display: flex;
             flex-wrap: wrap;
             flex-direction: row;
+        justify-content: space-between;
     }
 
         .diva{
-            /* display: flex; */
-            height: 25%;
-            width: 33vw;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            
+            /* height: 25%;
+            width: 33vw; */
             align: center;
             
         }
         .divb{
             /* display: flex; */
-            height: 25%;
-            width: 33vw;
+            /* height: 25%;
+            width: 33vw; */
         }
         .divc{
-            /* display: flex; */
-            height: 25%;
-            width: 33vw;
-            /* display: flex;
+            /* height: 25%;
+            width: 33vw; */
+            display: flex;
             flex-wrap: wrap;
-            flex-direction: row; */
+            flex-direction: row;
         }
 
     .div2{
         display: flex;
         flex-wrap: wrap;
             flex-direction: row;
+        justify-content: space-between;
         background-color: salmon;
-        width: 100%;
         border: 5px double black;
         height: 25%;
         width: 100%;
     }
 
     .divd{
-        /* display: flex; */
-        height: 25%;
-        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        /* height: 25%;
+        width: 100%; */
     }
     .dive{
-        /* display: flex; */
+        display: flex;
         height: 25%;
         width: 100%;
+        align-items: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
     }
 
     .div3{
