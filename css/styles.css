@@ -164,18 +164,19 @@ ul {
         justify-content: space-between;
     }
 
-        .diva{
+        .diva {
             display: flex;
             flex-wrap: wrap;
-            flex-direction: row;
-            
+            flex-direction: column;
             /* height: 25%;
             width: 33vw; */
             align: center;
-            
+            justify-content: space-between;
         }
-        .divb{
-            /* display: flex; */
+
+        .divb {
+            display: flex;
+            justify-content: center;
             /* height: 25%;
             width: 33vw; */
         }
@@ -221,11 +222,12 @@ ul {
     .div3{
         display: flex;
         flex-wrap: wrap;
-            flex-direction: row;
+            flex-direction: column;
         background-color: white; 
+        align-items: center;
         border: 5px solid black;
         color: white;
-        height 25%;
+        height: 25%;
         width: 100%;
     }   
     .div4{
@@ -233,7 +235,7 @@ ul {
         flex-wrap: wrap;
             flex-direction: row;
         background-color: salmon;
-        border: 5px double black:
+        border: 5px double black;
         height: 25%;
         width: 100%;
     }
